@@ -73,12 +73,22 @@ Amazon SageMaker - Machine Learning, easy to use apparently
 AWS IoT - "Internet of Things" 
 AWS Lambda - Something about servers and application development
 ## Who uses them?
-- Netlflix *(failing business model)*
+- Netflix *(failing business model)*
 - AirBnB *(falling stock price)*
 - Slack *(nobody likes slack)*
 - Nasa *(haven't taken us to the moon since the 60's)*
-- lyft *(heard of them? me neither)*
+- Lyft 
 - And many more!
 
 ---
+# Feature Comparison
+I fell asleep and missed the context for this, but I think it is about, the different levels of service that Amazon provide you based on your business plan type. Obviously a big boy company gets more rapid and comprehensive support, while a basic bitch gets nothing but a 12 month free tier slap in the face.
+
+| Plan Type          | Programmatic case management | Case severity/response times                                                                                                                                                         | Architectural Guidance                                                     | Third-Party Software Support                                    |
+| ------------------ | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Basic              | None                         | None                                                                                                                                                                                 | None                                                                       | None                                                            |
+| Developer          | None                         | General guidance: < 24 hours\*\*<br>System impaired: < 12 hours\*                                                                                                                    | General                                                                    | None                                                            |
+| Business           | Using AWS support API        | General guidance: < 24 hours\*\*<br>System impaired: < 12 hours\*<br>Production system impaired: < 4 hours<br>Production system down: < 1 hour                                       | Contextual to your use-cases                                               | Interoperability and configuration guidance and troubleshooting |
+| Enterprise On-Ramp | Using AWS support API        | General Guidance: < 24 hours<br>System impaired: < 12 hours<br>Production system impaired: < 4 hours<br>Production system down: < 1 hour<br>Business-critical system down: < 30 mins | Consultative review and guidance based on your applications (one-per-year) | Interoperability and configuration guidance and troubleshooting |
+| Enterprise         | Using AWS support API        | General guidance: < 24 hours<br>System impaired: < 12 hours<br>Production system impaired: < 4 hours<br>Production system down: < 1 hour<br>Business-critical system down: < 15 mins | Consultative review and guidance based on your applications                | Interoperability and configuration guidance and troubleshooting |
 
